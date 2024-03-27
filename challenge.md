@@ -4,63 +4,59 @@ layout: default
 
 <p style='text-align: justify;'>
 
-To participate in this competition, you must start with a base model from our approved list, utilize only open-source data, and limit your fine-tuning to a single **24-hour** period. This fine-tuning should be carried out on just one graphics card, which must be either the **NVIDIA 4090** or the **NVIDIA A100 (40GB)**.
-Our competition will feature two hardware tracks: the **NVIDIA 4090 track**  and  the **NVIDIA A100 track**, and each track will be evaluated separately.
+The competition will provide the participants with a list of **expert** models that have already been trained on a task-specific dataset. All of these models will be publicly available on the Hugging Face Model Hub with licenses that permit their use for research purposes. These models can either be fully fine-tuned models or models obtained by parameter-efficient fine-tuning methods such as LoRA. Models on this list will be required to satisfy the following criteria: (1) model size $\leq 8$B parameters, and (2) model with licenses compatible with research use (e.b., [MIT](https://spdx.org/licenses/MIT.html), [Apache 2](https://www.apache.org/licenses/LICENSE-2.0) etc). The goal of this competition is to re-use the provided models to create a generalist model that can perform well on a wide variety of skills like reasoning, coding, maths, chat, and tool use.
+This list of models will include popular pre-trained models such as LLaMA-7B, Mistral-7B, and Gemma-7B. 
+
 
 </p>
-
-## Approved Base models:
 
 <p style='text-align: justify;'>
-The starting model for the competition should be an open base model without instruction-tuning. Examples of licenses we'll accept are [MIT](https://spdx.org/licenses/MIT.html), [Apache 2](https://www.apache.org/licenses/LICENSE-2.0), [BigScience RAIL](https://bigscience.huggingface.co/blog/the-bigscience-rail-license). We're also happy to discuss other licenses on a case by case basis, for example per community interest we'll accept the [LLAMA 2 community license agreement](https://github.com/facebookresearch/llama/blob/main/LICENSE) if you've requested and been approved for a [download link](https://ai.meta.com/resources/models-and-libraries/llama-downloads/). All sizes of the common autoregressive and autoencoder base models listed below are allowed. 
+Along with these expert models, we also plan to provide two different types of datasets: (1) a list of **re-calibration datasets** to either tune the hyperparameters of merging methods, to perform additional training steps, to learn a routing, or to calibrate the final model, (2) a set of **validation tasks** that can be used to evaluate the final method's performance. The datasets will be released as part of the starter kit for the participants and are already hosted on the Hugging Face Hub with a permissive license. Apart from these, we will have two sets of hidden tasks that will be used to evaluate the submissions from participants: (1) a set of **leaderboard ranking test tasks**, and (2) a set of **final ranking test tasks**. The leaderboard ranking tasks will have some overlap with the test set tasks to provide an additional signal to the participants. 
+
+<br>
+
+The re-calibration datasets chosen are commonly used instruction-tuning datasets.
+The validation datasets chosen are commonly used benchmarks for measuring math, code, question-answering, and reasoning. 
+The hidden tasks come from **BIG-Bench**. This allows us to choose a set of tasks for the leaderboard ranking and the final ranking. 
+Some of the tasks come from BIG-Bench Hard (BBH), while others are specifically chosen to not be from BIG-Bench Hard (BBH) so even if competitors can guess the hidden benchmark, they cannot guess the hidden tasks. 
+
+We will not collect or release any new datasets for training or evaluation as part of this competition.
 
 </p>
 
-* ALBERT
-* BART
-* BERT
-* Bloom
-* Cerebras (btlm, GPT)
-* Colossal-LLaMA-2-7b-base
-* DeBERTa
-* DeciLM-6B
-* DistilBERT
-* Electra
-* Falcon
-* GPT2
-* GPT Neo, J, NeoX, Pythia
-* InternLM
-* LLaMA or Llama 2
-* Mistral
-* MPT
-* OpenLLaMA
-* OPT
-* Persimmon
-* Qwen
-* Red Pajama Base (not instruction tuned models)
-* RoBERTa
-* T5 (not Flan-T5)
-* UL2
+## Re-calibration Datasets Lists:
+
+* Open-Orca/SlimOrca
+* tatsu-lab/alpaca
+* lmsys/lmsys-chat-1m
+* camel-ai/math
+* camel-ai/physics
+* camel-ai/chemistry
+* camel-ai/biology
+* camel-ai/code
+
+## Validation Datasets Lists:
+
+* GSM8K
+* HumanEval
+* TriviaQA
+* BoolQ
 
 
-If you plan to use an open-source base model family not listed here, please reach out to us and we will consider adding it to the list. Please respect the honor system in place for this competition, and acquire your base model through legitimate channels only. (i.e. No pirated LLaMA weights). Any submissions that use base models obtained through illicit means will be disqualified. 
-
-## Datasets:
-
-<p style='text-align: justify;'>
-You are welcome to use any open sourced dataset. For example:
-</p>
-
-* [Databricks-Dolly-15](https://huggingface.co/datasets/databricks/databricks-dolly-15k)
+<!-- * [Databricks-Dolly-15](https://huggingface.co/datasets/databricks/databricks-dolly-15k)
 * [OpenAssistant Conversations Dataset (oasst1)](https://huggingface.co/datasets/OpenAssistant/oasst1)
 * [The Flan Collection](https://github.com/google-research/FLAN/tree/main/flan/v2)
 * [AllenAI Dolma](https://huggingface.co/datasets/allenai/dolma)
 * [RedPajama-Data-1T](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)
-* [LIMA](https://huggingface.co/datasets/GAIR/lima)
+* [LIMA](https://huggingface.co/datasets/GAIR/lima) -->
 
 <br>
 
-<p style='text-align: justify;'>
+## Tasks and application scenarios
+
+More details will be released soon!
+
+<!-- <p style='text-align: justify;'>
 Under no circumstances should you use data that infringes upon data usage agreements, copyright laws, or privacy policies. This means you should not use datasets that utilize generated content, whether in the form of instructions/prompts or results/answers from another LLM if that LLM did not have a permissive license that explicitly allowed you to do so. If you opt to create your own dataset, it must be open-sourced and readily accessible to the general public at the time of submission. Some concrete clarifications: 
 </p>
 
@@ -87,4 +83,4 @@ $$\text{score} = \Pi ( \text{mean-win-rate(\text{task})} )$$
 
 After the competition is closed on October 25th 2023, we will contact the top 3 teams with the highest scoring models in each hardware category, requesting that they submit all necessary code and data to reproduce their model, starting from their chosen open-source base model. We will then replicate their entire process, to ensure it is repeatable and same results can be achieved with 24 hours using a single GPU. If the top-scoring model cannot be reproduced under these imposed conditions, we will move on to consider the next highest-scoring model in the hardware category, we will continue this process until a reproducible and high-performing model is selected, or we exhaust all potential options and declare no winners for the category.
 
-</p>
+</p> -->

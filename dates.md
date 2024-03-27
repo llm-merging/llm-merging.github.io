@@ -6,19 +6,23 @@ layout: default
 
 <table class="foo">
     <tr>
+        <td width="50%"><b>Announce and advertise</b></td>
+        <td width="50%">April 18th, 2024</td>
+    </tr>
+    <tr>
         <td width="50%"><b>Submission Open</b></td>
-        <td width="50%">July 25th, 2023</td>
+        <td width="50%">May 1st, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Submission Deadline</b></td>
-        <td width="50%">October 25th, 2023</td>
+        <td width="50%">Mid-September, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Winners Notification</b></td>
-        <td width="50%">November 15th, 2023</td>
+        <td width="50%">Beginning of November, 2024</td>
     </tr>
     <tr>
-        <td width="50%"><b>In-person Workshop</b></td>
-        <td width="50%">December 15th, 2023</td>
+        <td width="50%"><b>Competition Presnetation</b></td>
+        <td width="50%">December, 2024</td>
     </tr>
 </table>
