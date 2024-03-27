@@ -1,7 +1,9 @@
 layout: default
 ---
 
-# Sponsors
+More details will be released soon!
+
+<!-- # Sponsors
 
 <table cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
     <tr>
@@ -20,5 +22,5 @@ layout: default
 
 * Stanford for creating and supporting HELM
 * Weights and Biases for promoting our competition in their LLM finetuning course
-* Greg Bowyer for donating 4090 GPUs for our eval infra
+* Greg Bowyer for donating 4090 GPUs for our eval infra -->
 

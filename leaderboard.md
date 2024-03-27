@@ -4,7 +4,9 @@ layout: default
 
 ## Winners 🏆
 
-### A100 track
+Stay tunned!
+
+<!-- ### A100 track
 1. Percent_bfd: Ao Liu, Zizhen Huang, Jiabin Wang, Hao Lu, Qin Hu [Repo](https://github.com/Percent-BFD/neurips_submission)
 2. Tiered Model Ninja Team: Anmol Agarwal, Ajinkya Deshpande, Shashank Shet, Arun Iyer, Suresh Parthasarathy [Repo](https://github.com/anmolagarwal999/Submission-NeurIPS-Large-Language-Model-Efficiency-Challenge-2023) 
 3. ReaLLM Conquerors: Mrigank Raman, Kousik Rajesh, Rahul Saxena, Abishek Sridhar, Akanksha Sachan [Repo](https://github.com/MrigankRaman/LLM_Comp/)
@@ -20,10 +22,10 @@ Student A100 track
 
 Student 4090 track
 1. ReaLLM Conquerors: Mrigank Raman, Kousik Rajesh, Rahul Saxena, Abishek Sridhar, Akanksha Sachan [Repo](https://github.com/MrigankRaman/LLM_Comp/)
-2. Knovel: Chris Ngo, Quy Anh Dang [Repo](https://github.com/knovel-eng/neurips-llm-2023)
+2. Knovel: Chris Ngo, Quy Anh Dang [Repo](https://github.com/knovel-eng/neurips-llm-2023) -->
 
 
-
+<!-- 
 ## Discord Leaderboard
 On Discord 
 * [4090 Leaderboard](https://discord.com/channels/1124130156336922665/1151568318013132831)
@@ -51,4 +53,4 @@ And once you have that submission DM the `evalbot` with either `eval 4090` or `e
 1. The way the bot works is it will recursively scan your repo for the first Dockerfile and use only that to eval against
 Providing free GPUs is expensive so if you're up to funny business like opening multiple discord accounts and/or spamming our bot we will disqualify you from the competition
 2. You will be allowed a maximum of 3 submissions a day
-3. Depending on volume of submissions eval might take a long time while you wait in the queue, the 2 techniques we have of resolving this are either adding more GPUs in our pool or reducing the number of eval instances, we will communicate whenever we make either of 2 decisions on Discord directly
+3. Depending on volume of submissions eval might take a long time while you wait in the queue, the 2 techniques we have of resolving this are either adding more GPUs in our pool or reducing the number of eval instances, we will communicate whenever we make either of 2 decisions on Discord directly -->

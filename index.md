@@ -21,3 +21,5 @@ This raises the question: given a new suite of desired skills and design paramet
 The LLM Merging challenge aims to spur the development and evaluation of methods for merging and reusing existing models to form stronger new models without needing additional training. Specifically, the competition focuses on merging existing publicly-released expert models from Huggingface, using only minimal compute and additional parameters. The goal will be to develop merged models that outperform existing models and existing merging baselines. Submissions will be judged based on the average accuracy on a set of held-out multiple-choice evaluation tasks. 
 To make the competition as accessible as possible and ensure that the merging procedures are more efficient than fine-tuning, we will enforce a compute budget and focus on merging models with fewer than 8B parameters. A starter kit with all necessary materials (baseline implementations, requirements, the evaluation script, etc.) will be released on May 1st. 
 </p>
+
+More details will be released soon!

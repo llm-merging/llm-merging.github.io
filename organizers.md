@@ -7,5 +7,5 @@ layout: default
 * Derek Tam
 * Margaret Li
 * Prateek Yadav
-* Rikard Gabrielsson
+* Rickard Brüel-Gabrielsson
 * Jiacheng Zhu

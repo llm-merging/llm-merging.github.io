@@ -6,6 +6,7 @@ layout: default
 
 * Kristjan Greenwald 
 * Mikhail Yutochkin
+* Mohit Bansal 
 * Colin Raffel
 * Leshem Choshen
 
