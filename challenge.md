@@ -17,8 +17,6 @@ Along with these expert models, we also plan to provide two different types of d
 
 The re-calibration datasets chosen are commonly used instruction-tuning datasets.
 The validation datasets chosen are commonly used benchmarks for measuring math, code, question-answering, and reasoning. 
-The hidden tasks come from **BIG-Bench**. This allows us to choose a set of tasks for the leaderboard ranking and the final ranking. 
-Some of the tasks come from BIG-Bench Hard (BBH), while others are specifically chosen to not be from BIG-Bench Hard (BBH) so even if competitors can guess the hidden benchmark, they cannot guess the hidden tasks. 
 
 We will not collect or release any new datasets for training or evaluation as part of this competition.
 
