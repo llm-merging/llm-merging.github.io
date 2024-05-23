@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+Join our discord <a href="here</a" target="_blank" rel="noreferrer">https://discord.gg/fjqSbGDn">here</a>!
 
 <p style='text-align: justify;'>
 Training high-performing large language models (LLMs) from scratch is a notoriously expensive and difficult task, costing hundreds of millions of dollars in compute alone. These pretrained LLMs, however, can cheaply and easily be adapted to new tasks via fine-tuning, leading to a proliferation of models that suit specific use cases. Recent work has shown that specialized fine-tuned models can be rapidly **merged** to combine capabilities and generalize to new skills. 
