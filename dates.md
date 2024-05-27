@@ -6,10 +6,6 @@ layout: default
 
 <table class="foo">
     <tr>
-        <td width="50%"><b>Announce and advertise</b></td>
-        <td width="50%">April 18th, 2024</td>
-    </tr>
-    <tr>
         <td width="50%"><b>Submission Open</b></td>
         <td width="50%">May 1st, 2024</td>
     </tr>
