@@ -2,10 +2,15 @@
 layout: default
 ---
 
-## Competition Rules
+# Competition Rules
 - Submissions must be reproducible from initial model through merging and fine-tuning. Winning models, along with all associated code and data, must be open-sourced and made public after the competition.
+
 - Submissions must NOT use any copyrighted or proprietary data, code, or closed-source content. The use of data or content that breaks service contracts or trade secrets of any entity is not allowed.
-- Submissions must take less than 24 hours to fine-tune on a single Nvidia A100 or Nvidia 4090 graphics card.
+
+- Submissions must take less than 24 hours to merge/fine-tune on a single Nvidia A100 (80 GB), or equivalent resource.
+
+- Each team can make ten submissions during the competition. Please use the following link to submit your models.
+
 - This competition will be run under the honor system. Teams that submit very similar results or copy another team's solution will be disqualified. Violating the spirit of the honor system or taking unfair advantage of the community, even when not against an explicit rule, may result in disqualification and ineligibility for prizes.
 
 
