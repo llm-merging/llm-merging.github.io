@@ -7,16 +7,19 @@ layout: default
 
 - Submissions must NOT use any copyrighted or proprietary data, code, or closed-source content. The use of data or content that breaks service contracts or trade secrets of any entity is not allowed.
 
-- Submissions must take less than 24 hours to merge/fine-tune on a single Nvidia A100 (80 GB), or equivalent resource.
+- Submissions must take less than 1 hours to merge/fine-tune and evaluate on a single Nvidia A6000 (48 GB) or equivalent resource.
 
-- Each team can make ten submissions during the competition. Please use the following link to submit your models.
+- Each team can make unlimited submissions during the competition, however the submissions will be evaluated once every week. We will further update the instructions for model submissions as the competition progresses.
 
 - This competition will be run under the honor system. Teams that submit very similar results or copy another team's solution will be disqualified. Violating the spirit of the honor system or taking unfair advantage of the community, even when not against an explicit rule, may result in disqualification and ineligibility for prizes.
 
 
 ### Recommended Models
-- Participants in the LLM-Merging competition are allowed to use any publicly available model weights that can be downloaded. 
-Specifically, any model that can be shared through huggingface is concerned valide. This flexibility aims to encourage creativity and innovation in model merging techniques. To help participants get started, we have provided a list of recommended models.
+- Participants in the LLM-Merging competition are allowed to use any publicly available model weights that can be downloaded. Specifically, the model should satisfy the follow criteria:
+  - The model is publicly available on huggingface 
+  - The model is uploaded after May 31st 2024 
+  - The model's parameter size is not larger than 8 billion
+This flexibility aims to encourage creativity and innovation in model merging techniques. To help participants get started, we have provided a list of recommended models.
 
 #### 1. Base Models 
 
@@ -53,9 +56,8 @@ Specifically, any model that can be shared through huggingface is concerned vali
 
 <details><summary> <strong>Gemma Family</strong>
       <details> 
-    - [Mistral 7B Instruct v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)  
-    - [Mistral 7B Instruct v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)  
-    - [Mistral 7B v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+    - [gemma-7b-pytorch ](https://huggingface.co/google/gemma-7b-pytorch)  
+    - [gemma-7b-it ](https://huggingface.co/google/gemma-7b-it)  
     </details>
 
 

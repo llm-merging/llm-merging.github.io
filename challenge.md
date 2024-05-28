@@ -22,23 +22,16 @@ We will not collect or release any new datasets for training or evaluation as pa
 
 </p>
 
-## Re-calibration Datasets Lists:
-
-* Open-Orca/SlimOrca
-* tatsu-lab/alpaca
-* lmsys/lmsys-chat-1m
-* camel-ai/math
-* camel-ai/physics
-* camel-ai/chemistry
-* camel-ai/biology
-* camel-ai/code
 
 ## Validation Datasets Lists:
 
-* GSM8K
+<!-- * GSM8K
 * HumanEval
-* TriviaQA
+* TriviaQA -->
 * BoolQ
+* MAWPS
+
+The main purpose of validation datasets is to measure the time and space efficiency. We are using a hidden list of test datasets to measure the performances.
 
 
 <!-- * [Databricks-Dolly-15](https://huggingface.co/datasets/databricks/databricks-dolly-15k)
@@ -50,9 +43,9 @@ We will not collect or release any new datasets for training or evaluation as pa
 
 <br>
 
-## Tasks and application scenarios
+<!-- ## Tasks and application scenarios
 
-More details will be released soon!
+More details will be released soon! -->
 
 <!-- <p style='text-align: justify;'>
 Under no circumstances should you use data that infringes upon data usage agreements, copyright laws, or privacy policies. This means you should not use datasets that utilize generated content, whether in the form of instructions/prompts or results/answers from another LLM if that LLM did not have a permissive license that explicitly allowed you to do so. If you opt to create your own dataset, it must be open-sourced and readily accessible to the general public at the time of submission. Some concrete clarifications: 

@@ -17,7 +17,7 @@ navigation:
   Leaderboard: "leaderboard"
   Organizers: "organizers"
   Advisors: "advisors"
-  Workshop: "schedule"
+  # Workshop: "schedule"
   # Invited Speakers: "speakers"
   # FAQ: "faq"
   Sponsors: "sponsors"
