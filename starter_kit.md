@@ -17,4 +17,4 @@ We may make modifications to our submission and evaluation pipeline, but the eva
 Please join us on Discord for discussions and up-to-date announcements:
 <br>
 
-[https://discord.gg/ufycruJx](https://discord.gg/ufycruJx)
+[https://discord.gg/dPBHEVnV](https://discord.gg/dPBHEVnV)
