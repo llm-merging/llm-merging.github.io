@@ -17,7 +17,7 @@ layout: default
 ### Recommended Models
 - Participants in the LLM-Merging competition are allowed to use any publicly available model weights that can be downloaded. Specifically, the model should satisfy the follow criteria:
   - The model is publicly available on huggingface 
-  - The model is uploaded after May 31st 2024 
+  - The model is uploaded before May 31st 2024 
   - The model's parameter size is not larger than 8 billion
 This flexibility aims to encourage creativity and innovation in model merging techniques. To help participants get started, we have provided a list of recommended models.
 
