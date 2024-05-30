@@ -7,7 +7,7 @@ layout: default
 <table class="foo">
     <tr>
         <td width="50%"><b>Submission Open</b></td>
-        <td width="50%">June 1st, 2024</td>
+        <td width="50%">Early June, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Submission Deadline</b></td>

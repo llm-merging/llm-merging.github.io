@@ -99,3 +99,38 @@
 .tab-content li.active {
     display: initial;
 }
+
+/* --- organizeers figures
+----*/
+
+.organizers {
+    text-align: center;
+  }
+  
+  .organizers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .organizer {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .organizer img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .organizer h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .organizer p {
+    font-size: 0.9em;
+    color: #666;
+  }
