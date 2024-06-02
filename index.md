@@ -10,7 +10,7 @@ Training high-performing large language models (LLMs) from scratch is a notoriou
 
 ## Get started
 
-The competition will provide the participants with a list of **expert** models that have already been trained on a task-specific dataset. All of these models will be publicly available on the Hugging Face Model Hub with licenses that permit their use for research purposes. These models can either be fully fine-tuned models or models obtained by parameter-efficient fine-tuning methods such as LoRA. Models on this list will be required to satisfy the following criteria: (1) model size $\leq 8$B parameters, and (2) model with licenses compatible with research use (e.b., [MIT](https://spdx.org/licenses/MIT.html), [Apache 2](https://www.apache.org/licenses/LICENSE-2.0) etc).
+The competition will provide the participants with a list of **expert** models that have already been trained on a task-specific dataset. All of these models will be publicly available on the Hugging Face Model Hub with licenses that permit their use for research purposes. These models can either be fully fine-tuned models or models obtained by parameter-efficient fine-tuning methods such as LoRA. Models on this list will be required to satisfy the following criteria: (1) model size $\leq$ 8B parameters, and (2) model with licenses compatible with research use (e.b., [MIT](https://spdx.org/licenses/MIT.html), [Apache 2](https://www.apache.org/licenses/LICENSE-2.0) etc).
 
 
 <p style='text-align: justify;'>
