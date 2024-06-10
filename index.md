@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Join our discord <a href="https://discord.gg/dPBHEVnV">here</a> !
+Join our discord <a href="https://discord.com/invite/VYfFexfSpZ">here</a> !
 
 ## Aims and Focus
 <p style='text-align: justify;'>
