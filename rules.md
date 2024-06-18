@@ -14,14 +14,14 @@ layout: default
 - This competition will be run under the honor system. Teams that submit very similar results or copy another team's solution will be disqualified. Violating the spirit of the honor system or taking unfair advantage of the community, even when not against an explicit rule, may result in disqualification and ineligibility for prizes.
 
 
-### Recommended Models
-- Participants in the LLM-Merging competition are allowed to use any publicly available model weights that can be downloaded. Specifically, the model should satisfy the follow criteria:
-  - The model is publicly available on huggingface 
+### Allowed Models
+- Participants in the LLM-Merging competition are allowed to use **any** publicly available model weights that can be downloaded and fullfils the conditions. Specifically, the model should satisfy the following criteria:
+  - The model is publicly available on Hugging Face 
   - The model is uploaded before May 31st 2024 
   - The model's parameter size is not larger than 8 billion
 This flexibility aims to encourage creativity and innovation in model merging techniques. To help participants get started, we have provided a list of recommended models.
 
-#### 1. Base Models 
+#### 1. Base Model suggestions
 
 <details><summary> <strong>Llama 2 Family</strong>
       <details> 
@@ -59,6 +59,44 @@ This flexibility aims to encourage creativity and innovation in model merging te
     - [gemma-7b-pytorch ](https://huggingface.co/google/gemma-7b-pytorch)  
     - [gemma-7b-it ](https://huggingface.co/google/gemma-7b-it)  
     </details>
+
+
+#### 2. Finetuned Model example
+
+<details><summary> <strong>All adapters under </strong>
+      <details> 
+    - https://huggingface.co/predibase 
+    - https://huggingface.co/predibase/magicoder 
+    - https://huggingface.co/predibase/conllpp 
+    - https://huggingface.co/predibase/dbpedia 
+    - https://huggingface.co/predibase/cnn 
+    - https://huggingface.co/predibase/agnews_explained 
+    - https://huggingface.co/predibase/gsm8k 
+    - https://huggingface.co/predibase/customer_support 
+    - https://huggingface.co/predibase/glue_qnli 
+    - https://huggingface.co/predibase/glue_mnli 
+    - https://huggingface.co/predibase/glue_sst2 
+    - https://huggingface.co/predibase/glue_cola 
+    - https://huggingface.co/predibase/glue_stsb 
+    - https://huggingface.co/predibase/glue_mrpc 
+    - https://huggingface.co/predibase/glue_qqp 
+    - https://huggingface.co/predibase/tldr_headline_gen 
+    - https://huggingface.co/predibase/tldr_content_gen 
+    - https://huggingface.co/predibase/e2e_nlg 
+    - https://huggingface.co/predibase/wikisql 
+    - https://huggingface.co/predibase/hellaswag 
+    - https://huggingface.co/predibase/hellaswag_processed 
+    - https://huggingface.co/predibase/legal 
+    - https://huggingface.co/predibase/jigsaw 
+    - https://huggingface.co/predibase/bc5cdr 
+    - https://huggingface.co/predibase/covid 
+    - https://huggingface.co/predibase/drop 
+    - https://huggingface.co/predibase/drop_explained 
+    - https://huggingface.co/predibase/viggo 
+    </details>
+
+
+
 
 
 <!-- 
