@@ -63,37 +63,38 @@ This flexibility aims to encourage creativity and innovation in model merging te
 
 #### 2. Finetuned Model example
 
-<details><summary> <strong>All adapters under </strong>
-      <details> 
-    - https://huggingface.co/predibase 
-    - https://huggingface.co/predibase/magicoder 
-    - https://huggingface.co/predibase/conllpp 
-    - https://huggingface.co/predibase/dbpedia 
-    - https://huggingface.co/predibase/cnn 
-    - https://huggingface.co/predibase/agnews_explained 
-    - https://huggingface.co/predibase/gsm8k 
-    - https://huggingface.co/predibase/customer_support 
-    - https://huggingface.co/predibase/glue_qnli 
-    - https://huggingface.co/predibase/glue_mnli 
-    - https://huggingface.co/predibase/glue_sst2 
-    - https://huggingface.co/predibase/glue_cola 
-    - https://huggingface.co/predibase/glue_stsb 
-    - https://huggingface.co/predibase/glue_mrpc 
-    - https://huggingface.co/predibase/glue_qqp 
-    - https://huggingface.co/predibase/tldr_headline_gen 
-    - https://huggingface.co/predibase/tldr_content_gen 
-    - https://huggingface.co/predibase/e2e_nlg 
-    - https://huggingface.co/predibase/wikisql 
-    - https://huggingface.co/predibase/hellaswag 
-    - https://huggingface.co/predibase/hellaswag_processed 
-    - https://huggingface.co/predibase/legal 
-    - https://huggingface.co/predibase/jigsaw 
-    - https://huggingface.co/predibase/bc5cdr 
-    - https://huggingface.co/predibase/covid 
-    - https://huggingface.co/predibase/drop 
-    - https://huggingface.co/predibase/drop_explained 
-    - https://huggingface.co/predibase/viggo 
-    </details>
+<details><summary> <strong>All adapters under</strong></summary>
+  <details>
+    - [predibase](https://huggingface.co/predibase)  
+    - [magicoder](https://huggingface.co/predibase/magicoder)  
+    - [conllpp](https://huggingface.co/predibase/conllpp)  
+    - [dbpedia](https://huggingface.co/predibase/dbpedia)  
+    - [cnn](https://huggingface.co/predibase/cnn)  
+    - [agnews_explained](https://huggingface.co/predibase/agnews_explained)  
+    - [gsm8k](https://huggingface.co/predibase/gsm8k)  
+    - [customer_support](https://huggingface.co/predibase/customer_support)  
+    - [glue_qnli](https://huggingface.co/predibase/glue_qnli)  
+    - [glue_mnli](https://huggingface.co/predibase/glue_mnli)  
+    - [glue_sst2](https://huggingface.co/predibase/glue_sst2)  
+    - [glue_cola](https://huggingface.co/predibase/glue_cola)  
+    - [glue_stsb](https://huggingface.co/predibase/glue_stsb)  
+    - [glue_mrpc](https://huggingface.co/predibase/glue_mrpc)  
+    - [glue_qqp](https://huggingface.co/predibase/glue_qqp)  
+    - [tldr_headline_gen](https://huggingface.co/predibase/tldr_headline_gen)  
+    - [tldr_content_gen](https://huggingface.co/predibase/tldr_content_gen)  
+    - [e2e_nlg](https://huggingface.co/predibase/e2e_nlg)  
+    - [wikisql](https://huggingface.co/predibase/wikisql)  
+    - [hellaswag](https://huggingface.co/predibase/hellaswag)  
+    - [hellaswag_processed](https://huggingface.co/predibase/hellaswag_processed)  
+    - [legal](https://huggingface.co/predibase/legal)  
+    - [jigsaw](https://huggingface.co/predibase/jigsaw)  
+    - [bc5cdr](https://huggingface.co/predibase/bc5cdr)  
+    - [covid](https://huggingface.co/predibase/covid)  
+    - [drop](https://huggingface.co/predibase/drop)  
+    - [drop_explained](https://huggingface.co/predibase/drop_explained)  
+    - [viggo](https://huggingface.co/predibase/viggo)  
+  </details>
+</details>
 
 
 
