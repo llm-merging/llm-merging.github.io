@@ -30,7 +30,7 @@ A starter kit with an end-to-end submission flow can be found here:<br>
     </tr>
     <tr>
         <td width="50%"><b>Submission Deadline</b></td>
-        <td width="50%">Early November, 2024</td>
+        <td width="50%">Mid-September, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Winners Notification</b></td>
