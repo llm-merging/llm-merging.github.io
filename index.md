@@ -26,15 +26,15 @@ A starter kit with an end-to-end submission flow can be found here:<br>
 <table class="foo">
     <tr>
         <td width="50%"><b>Submission Open</b></td>
-        <td width="50%">Early June, 2024</td>
+        <td width="50%"> <s>Early June, 2024</s> </td>
     </tr>
     <tr>
         <td width="50%"><b>Submission Deadline</b></td>
-        <td width="50%">Mid-September, 2024</td>
+        <td width="50%">Early November, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Winners Notification</b></td>
-        <td width="50%">Beginning of November, 2024</td>
+        <td width="50%">Mid-November, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Competition Presnetation</b></td>
