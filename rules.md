@@ -64,7 +64,7 @@ This flexibility aims to encourage creativity and innovation in model merging te
 #### 2. Finetuned Model example
 
 <details><summary> <strong>All adapters under</strong>
-  <details>
+      <details>
     - [predibase](https://huggingface.co/predibase)  
     - [magicoder](https://huggingface.co/predibase/magicoder)  
     - [conllpp](https://huggingface.co/predibase/conllpp)  
