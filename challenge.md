@@ -15,8 +15,7 @@ Along with these expert models, we also plan to provide two different types of d
 
 <br>
 
-The re-calibration datasets chosen are commonly used instruction-tuning datasets.
-The validation datasets chosen are commonly used benchmarks for measuring math, code, question-answering, and reasoning. 
+The validation datasets are chosen to measure the time and space efficiency of the merging method. They are **not** meant to benchmark the performance of the merging method.  
 
 We will not collect or release any new datasets for training or evaluation as part of this competition.
 
@@ -28,8 +27,8 @@ We will not collect or release any new datasets for training or evaluation as pa
 <!-- * GSM8K
 * HumanEval
 * TriviaQA -->
-* BoolQ
-* MAWPS
+* CosmosQA
+* XSum
 
 The main purpose of validation datasets is to measure the time and space efficiency. We are using a hidden list of test datasets to measure the performances.
 
