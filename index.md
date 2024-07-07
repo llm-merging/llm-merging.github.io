@@ -10,7 +10,7 @@ Training high-performing large language models (LLMs) from scratch is a notoriou
 
 ## Get started
 
-The competition allows any current model that follows the general conditions (e.g., existed when the competition was announced and is uo to 8Gb) see Rules for explicit conditions.
+The competition allows any current model that follows the general conditions (e.g., existed when the competition was announced and is up to 8Gb) see Rules for explicit conditions.
 
 
 <p style='text-align: justify;'>
