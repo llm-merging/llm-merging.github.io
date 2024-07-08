@@ -11,11 +11,10 @@ This list of models will include popular pre-trained models such as LLaMA-7B, Mi
 </p>
 
 <p style='text-align: justify;'>
-Along with these expert models, we also plan to provide two different types of datasets: (1) a list of **re-calibration datasets** to either tune the hyperparameters of merging methods, to perform additional training steps, to learn a routing, or to calibrate the final model, (2) a set of **validation tasks** that can be used to evaluate the final method's performance. The datasets will be released as part of the starter kit for the participants and are already hosted on the Hugging Face Hub with a permissive license. Apart from these, we will have two sets of hidden tasks that will be used to evaluate the submissions from participants: (1) a set of **leaderboard ranking test tasks**, and (2) a set of **final ranking test tasks**. The leaderboard ranking tasks will have some overlap with the test set tasks to provide an additional signal to the participants. 
+Along with these expert models, we also plan to provide a set of validation datasets to measure the time and space efficiency of the merging method. They are **not** meant to benchmark the performance of the merging method. The datasets will be released as part of the starter kit for the participants and are already hosted on the Hugging Face Hub with a permissive license. Apart from these, we will have two sets of hidden tasks that will be used to evaluate the submissions from participants: (1) a set of **leaderboard ranking test tasks**, and (2) a set of **final ranking test tasks**. 
 
 <br>
 
-The validation datasets are chosen to measure the time and space efficiency of the merging method. They are **not** meant to benchmark the performance of the merging method.  
 
 We will not collect or release any new datasets for training or evaluation as part of this competition.
 
