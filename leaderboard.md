@@ -2,9 +2,9 @@
 layout: default
 ---
 
-## Winners 🏆
+<!-- ## Winners 🏆
 
-Stay tunned!
+Stay tunned! -->
 
 <!-- ### A100 track
 1. Percent_bfd: Ao Liu, Zizhen Huang, Jiabin Wang, Hao Lu, Qin Hu [Repo](https://github.com/Percent-BFD/neurips_submission)
@@ -13,17 +13,24 @@ Stay tunned!
 
 Student A100 track
 1. ReaLLM Conquerors: Mrigank Raman, Kousik Rajesh, Rahul Saxena, Abishek Sridhar, Akanksha Sachan [Repo](https://github.com/MrigankRaman/LLM_Comp/)
-2. NJUST-A!dge: Shupeng Zhong, Yu Xia, Shifeng Yi, Qingguo Chen, Yang Yang [Repo](https://github.com/hqbbzsp/nips_submission_A100)
+2. NJUST-A!dge: Shupeng Zhong, Yu Xia, Shifeng Yi, Qingguo Chen, Yang Yang [Repo](https://github.com/hqbbzsp/nips_submission_A100) -->
 
-### 4090 track
-1. Upaya: Ashvini Jindal, Ankur Parikh, Pawan Rajpoot [Repo](https://github.com/Upaya07/NeurIPS-llm-efficiency-challenge)
-2. ReaLLM Conquerors: Mrigank Raman, Kousik Rajesh, Rahul Saxena, Abishek Sridhar, Akanksha Sachan [Repo](https://github.com/MrigankRaman/LLM_Comp/)
-3. Knovel: Chris Ngo, Quy Anh Dang [Repo](https://github.com/knovel-eng/neurips-llm-2023)
+# Leaderboard 
+### Full leaderboard at [Huggingface leaderboard](https://huggingface.co/spaces/margsli/merging_competition)
 
-Student 4090 track
-1. ReaLLM Conquerors: Mrigank Raman, Kousik Rajesh, Rahul Saxena, Abishek Sridhar, Akanksha Sachan [Repo](https://github.com/MrigankRaman/LLM_Comp/)
-2. Knovel: Chris Ngo, Quy Anh Dang [Repo](https://github.com/knovel-eng/neurips-llm-2023) -->
+- Validation Benchmark Performance is averaged.
+- Final performance will be assessed at the end of the competition on a hidden test set, which may or may not be correlated with Validation performance.
+- Higher values are better.
 
+| Rank | 🤖 Model / Submission Name       | ⭐ Validation Performance |
+|------|----------------------------------|--------------------------|
+| 1    | Llama Average (Baseline)         | 38.4                     |
+| 2    | flan_t5_weights                  | 37.7                     |
+| 3    | my_t5_avg                        | 37.1                     |
+
+*Updated on 07/21/2024. The full leaderboard is hosted on [Huggingface leaderboard](https://huggingface.co/spaces/margsli/merging_competition)*
+
+<!-- <iframe src="https://www.example.com" width="100%" height="600px"></iframe> -->
 
 <!-- 
 ## Discord Leaderboard
@@ -38,19 +45,19 @@ You might have noticed a new friendly bot has joined the server called @evalbot 
 1. DM the bot with `eval 4090` or `eval A100` and attach a zipped file of your submission to the message (You can also just openly message the bot but DM'ing will protect your secret sauce)
 2. If successful the bot will give you a job ID and a running status, the eval will take roughly 1-2h so be patient if you're top of queue
 3. Once the bot completes your run it will update either the ⁠leaderboard_4090  or ⁠leaderboard_a100 channel, we will not be monitoring these 2 text channels they will be purely for the bot to post the new updated leaderboard
+-->
 
-## How to create a zip submission
+## How to submit your merging method
 
-We will showcase an example using our actual repo https://github.com/llm-efficiency-challenge/neurips_llm_efficiency_challenge
-1. `git clone --recurse-submodules https://github.com/llm-efficiency-challenge/neurips_llm_efficiency_challenge` to ensure `lit-gpt` folder is actually in the repo
-2. `rm -rf sample-submissions/llama_recipes`, the leaderboard will recursively traverse your repo and find the first `Dockerfile` and assume that's the submission
-3. `zip -r neurips_llm_efficiency_challenge.zip neurips_llm_efficiency_challenge/`
+- Start from our starter code template [LLM-Merging](https://github.com/llm-merging/LLM-Merging) and build your own merging method.
+- Please submit the whole repository. After modifying the files, tar the file into a tarball using the command:
+```python
+tar -cvf llm-merging.tar LLM-Merging
+```
+- Submit your tar file using this [form](https://docs.google.com/forms/d/17TPg7N02o8qvw1czx55Zbh_5Kp7-YStUIOhQDJYc23g/edit)
 
-And once you have that submission DM the `evalbot` with either `eval 4090` or `eval A100` with the zip file attached to your submission. Discord does impose size limits on messages so make sure your artifacts aren't stored directly in the repo but that you `wget` from somewhere else.
 
 
 **Note**: 
-1. The way the bot works is it will recursively scan your repo for the first Dockerfile and use only that to eval against
-Providing free GPUs is expensive so if you're up to funny business like opening multiple discord accounts and/or spamming our bot we will disqualify you from the competition
-2. You will be allowed a maximum of 3 submissions a day
-3. Depending on volume of submissions eval might take a long time while you wait in the queue, the 2 techniques we have of resolving this are either adding more GPUs in our pool or reducing the number of eval instances, we will communicate whenever we make either of 2 decisions on Discord directly -->
+- Each team’s submission will be evaluated at most once per day. Evaluation frequency will increase as the deadline approaches.
+- An automatic submission method is comming soon.
