@@ -30,7 +30,7 @@ A starter kit with an end-to-end submission flow can be found here:<br>
     </tr>
     <tr>
         <td width="50%"><b>Submission Deadline</b></td>
-        <td width="50%">Mid-September, 2024</td>
+        <td width="50%">September 13th, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Winners Notification</b></td>
@@ -41,7 +41,7 @@ A starter kit with an end-to-end submission flow can be found here:<br>
         <td width="50%">December, 2024</td>
     </tr>
 </table>
-
+*We may postpone the deadline. Please check our website and the announcements in the Discord channel for updates.*
 
 <!-- <br>
 
