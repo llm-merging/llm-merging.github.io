@@ -24,11 +24,21 @@ Student A100 track
 
 | Rank | 🤖 Model / Submission Name       | ⭐ Validation Performance |
 |------|----------------------------------|--------------------------|
-| 1    | Llama Average (Baseline)         | 38.4                     |
-| 2    | flan_t5_weights                  | 37.7                     |
-| 3    | my_t5_avg                        | 37.1                     |
+| 1    | readapt_median                   | 48.4                     |
+| 2    | lore_route                       | 45.8                     |
+| 3    | shira_llama3_8b_it_algo0         | 44.9                     |
+| 4    | basic_merge_00                   | 44.7                     |
+| 5    | shira_qw2_7b_it_algo0            | 44.1                     |
+| 6    | shira_mtl7b_0_2_algo0            | 42.0                     |
+| 7    | cdutr_AqQ3                       | 41.1                     |
+| 8    | shira_ft5_algo0                  | 40.8                     |
+| 9    | shira_ft5xl_algo0                | 40.8                     |
+| 10   | llama_avg                        | 38.4                     |
+| 11   | flan_t5_weights                  | 37.7                     |
+| 12   | cdutr_pi5c                       | 37.2                     |
+| 13   | my_t5_avg                        | 37.1                     |
 
-*Updated on 07/21/2024. The full leaderboard is hosted on [Huggingface leaderboard](https://huggingface.co/spaces/margsli/merging_competition)*
+*Updated on 07/29/2024. The full leaderboard is hosted on [Huggingface leaderboard](https://huggingface.co/spaces/margsli/merging_competition)*
 
 <!-- <iframe src="https://www.example.com" width="100%" height="600px"></iframe> -->
 
