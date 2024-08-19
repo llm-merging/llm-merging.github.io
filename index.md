@@ -19,6 +19,8 @@ A starter kit with an end-to-end submission flow can be found here:<br>
 [https://github.com/llm-merging/LLM-Merging](https://github.com/llm-merging/LLM-Merging)
 </p>
 
+- Please submit a report describing your merging method to our [OpenReview LMC 2024](https://openreview.net/group?id=NeurIPS.cc/2024/Competition/LMC) page. Please follow the standard NeurIPS format [template](https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh). There are no strict restrictions or limitations for the report, but we suggest that the page limit not exceed 4 pages. All submitted reports will be publicly accessible on our website.
+
 <p>For more details, please check the <a href="challenge.html">Challenge</a>, <a href="rules.html">Rules</a>, and <a href="starter_kit.html">Starter Kit</a> tab.</p>
 
 ## Important Dates
@@ -45,7 +47,7 @@ A starter kit with an end-to-end submission flow can be found here:<br>
         <td width="50%">December, 2024</td>
     </tr>
 </table>
-*We may postpone the deadline. Please check our website and the announcements in the Discord channel for updates.*
+* Currently the deadline is October 11th, 2024. Please check our website and the announcements in the Discord channel for updates.*
 
 <!-- <br>
 
