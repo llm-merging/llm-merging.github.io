@@ -29,8 +29,12 @@ A starter kit with an end-to-end submission flow can be found here:<br>
         <td width="50%"> <s>Early June, 2024</s> </td>
     </tr>
     <tr>
-        <td width="50%"><b>Submission Deadline</b></td>
-        <td width="50%">September 13th, 2024</td>
+        <td width="50%"><b>Code Submission Deadline</b></td>
+        <td width="50%"> <s>September 13th, 2024</s>, New! October 11th, 2024</td>
+    </tr>
+    <tr>
+        <td width="50%"><b>Report Submission Deadline</b></td>
+        <td width="50%"> November 1st, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Winners Notification</b></td>

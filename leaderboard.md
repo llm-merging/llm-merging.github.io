@@ -24,24 +24,44 @@ Student A100 track
 
 | Rank | 🤖 Model / Submission Name       | ⭐ Validation Performance |
 |------|----------------------------------|--------------------------|
-| 1    | wcf_lar                          | 52.2                     |
-| 2    | readapt_median                   | 48.4                     |
-| 3    | lore_route                       | 45.8                     |
-| 4    | shira_llama3_8b_it_algo0         | 44.9                     |
-| 5    | basic_merge_00                   | 44.7                     |
-| 6    | shira_qw2_7b_it_algo0            | 44.1                     |
-| 7    | mistral_avg_exp_04               | 42.2                     |
-| 8    | shira_mtl7b_0_2_algo0            | 42.0                     |
-| 9    | cdutr_AqQ3                       | 41.1                     |
-| 10   | shira_ft5_algo0                  | 40.8                     |
-| 11   | shira_ft5xl_algo0                | 40.8                     |
-| 12   | llama_avg (Baseline)             | 38.4                     |
-| 13   | flan_t5_weights                  | 37.7                     |
-| 14   | cdutr_pi5c                       | 37.2                     |
-| 15   | my_t5_avg                        | 37.1                     |
-| 16   | shira_algo_k00                   | 29.5                     |
+| 1    | BVD_Mega                         | 54.5                     |
+| 2    | wcf_lar                          | 52.2                     |
+| 3    | readapt_median                   | 48.4                     |
+| 4    | kobeni                           | 46.7                     |
+| 5    | lore_route                       | 45.8                     |
+| 6    | shira_llama3_8b_it_algo0         | 44.9                     |
+| 7    | basic_merge_00                   | 44.7                     |
+| 8    | llama_base_fc                    | 44.2                     |
+| 9    | llama_base_qa                    | 44.2                     |
+| 10   | shira_qw2_7b_it_algo0            | 44.1                     |
+| 11   | llama_merge2                     | 42.7                     |
+| 12   | mistral_avg_exp_04               | 42.2                     |
+| 13   | shira_mtl7b_0_2_algo0            | 42.0                     |
+| 14   | mistral_avg_exp_05               | 41.4                     |
+| 15   | mistral_avg_exp_07               | 41.3                     |
+| 16   | mistral_avg_exp_06               | 41.2                     |
+| 17   | cdutr_AqQ3                       | 41.1                     |
+| 18   | shira_ft5_algo0                  | 40.8                     |
+| 19   | shira_ft5xl_algo0                | 40.8                     |
+| 20   | yi15_exp                         | 40.7                     |
+| 21   | yi15_exp                         | 39.9                     |
+| 22   | llama_avg                        | 38.5                     |
+| 23   | llama_avg (Baseline)             | 38.4                     |
+| 24   | knovel_test                      | 38.4                     |
+| 25   | abc                              | 38.1                     |
+| 26   | flan_t5_avg                      | 38.0                     |
+| 27   | llama_optimized                  | 38.0                     |
+| 28   | Fbaseline                        | 38.0                     |
+| 29   | flan_t5_weights                  | 37.7                     |
+| 30   | flan_t5_avg_lora                 | 37.6                     |
+| 31   | cdutr_pi5c                       | 37.2                     |
+| 32   | my_t5_avg                        | 37.1                     |
+| 33   | deepseek_exp                     | 36.5                     |
+| 34   | shira_algo_k00                   | 29.5                     |
+| 35   | SLM                              | 26.0                     |
+| 36   | llama_avg                        | 18.8                     |
 
-*Updated on 08/05/2024. The full leaderboard is hosted on [Huggingface leaderboard](https://huggingface.co/spaces/margsli/merging_competition)*
+*Updated on 08/19/2024. The full leaderboard is hosted on [Huggingface leaderboard](https://huggingface.co/spaces/margsli/merging_competition)*
 
 <!-- <iframe src="https://www.example.com" width="100%" height="600px"></iframe> -->
 
@@ -69,6 +89,7 @@ tar -cvf llm-merging.tar LLM-Merging
 ```
 - Submit your tar file using this [form](https://docs.google.com/forms/d/17TPg7N02o8qvw1czx55Zbh_5Kp7-YStUIOhQDJYc23g/edit)
 
+- Please submit a report describing your merging method to our [OpenReview LMC 2024](https://openreview.net/group?id=NeurIPS.cc/2024/Competition/LMC) page. Please follow the standard NeurIPS format [template](https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh). There are no strict restrictions or limitations for the report, but we suggest that the page limit not exceed 4 pages. All submitted reports will be publicly accessible on our website.
 
 
 **Note**: 
