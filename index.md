@@ -14,21 +14,21 @@ Our accepted technical reports are at <a href="https://openreview.net/group?id=N
 
 | Placement    | Winner                                             |
 |--------------|----------------------------------------------------|
-| 1st Place    | [QiangGao, Jisheng fang, Hao Mo](https://openreview.net/forum?id=zcnDi0i23y)                                  |
-| 2nd Place    | [Yinuo Zhang](https://openreview.net/forum?id=VndTgXbAgz)                                   |
-| 3rd Place    | [Zixiang Di, Yaoming Yang, Mei Jiang, Bingdong Li, Hong Qian, Aimin Zhou](https://openreview.net/forum?id=Xl8uuaNj1X)                                    |
+| 1st Place  :star2::star2::star2::confetti_ball: | [A Model Merging Method](https://openreview.net/forum?id=zcnDi0i23y) Qiang Gao, Jisheng fang, Hao Mo      |
+| 2nd Place  :star2::star2::tada:  | [Simple Llama Merge: What Kind of LLM Do We Need?](https://openreview.net/forum?id=VndTgXbAgz)      Yinuo Zhang                             |
+| 3rd Place  :star2::dizzy:  | [LLM Merging Competition Technical Report: Efficient Model Merging with Strategic Model Selection, Merging, and Hyperparameter Optimization](https://openreview.net/forum?id=Xl8uuaNj1X)   Zixiang Di, Yaoming Yang, Mei Jiang, Bingdong Li, Hong Qian, Aimin Zhou   |
 
 ## Efficiency Track
 
-| Winner           |
+| Winner    :rocket:       |
 |------------------|
-| [Yizhen Zhang, Yang Ding, Jie Wu, Yujiu Yang](https://openreview.net/forum?id=rJ1miae6PJ)   |
+| [LLM Merging Competition Technical Report for NeurIPS 2024: Efficiently Building Large Language Models through Merging](https://openreview.net/forum?id=rJ1miae6PJ) Yizhen Zhang, Yang Ding, Jie Wu, Yujiu Yang  |
 
 ## Most Creative Paper Write-up Track
 
-| Winner                      |
+| Winner         :fireworks:             |
 |-----------------------------|
-| [Siddharth Gupta, Aakash Gupta](https://openreview.net/forum?id=4VD2jMqJbN)        |
+| [Model Merging using Geometric Median of Task Vectors](https://openreview.net/forum?id=4VD2jMqJbN)   Siddharth Gupta, Aakash Gupta     |
 
 
 
