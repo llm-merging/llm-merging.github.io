@@ -14,27 +14,29 @@ Our accepted technical reports are at <a href="https://openreview.net/group?id=N
 
 | Placement    | Winner                                             |
 |--------------|----------------------------------------------------|
-| 1st Place  :star2::star2::star2::confetti_ball: | [A Model Merging Method](https://openreview.net/forum?id=zcnDi0i23y) Qiang Gao, Jisheng fang, Hao Mo      |
-| 2nd Place  :star2::star2::tada:  | [Simple Llama Merge: What Kind of LLM Do We Need?](https://openreview.net/forum?id=VndTgXbAgz)      Yinuo Zhang                             |
-| 3rd Place  :star2::dizzy:  | [LLM Merging Competition Technical Report: Efficient Model Merging with Strategic Model Selection, Merging, and Hyperparameter Optimization](https://openreview.net/forum?id=Xl8uuaNj1X)   Zixiang Di, Yaoming Yang, Mei Jiang, Bingdong Li, Hong Qian, Aimin Zhou   |
+| 1st Place  🌟 | [A Model Merging Method](https://openreview.net/forum?id=zcnDi0i23y) <br> Qiang Gao, Jisheng fang, Hao Mo      |
+| 2nd Place  ⭐  | [Simple Llama Merge: What Kind of LLM Do We Need?](https://openreview.net/forum?id=VndTgXbAgz)  <br>  Yinuo Zhang                             |
+| 3rd Place  💫  | [LLM Merging Competition Technical Report: Efficient Model Merging with Strategic Model Selection, Merging, and Hyperparameter Optimization](https://openreview.net/forum?id=Xl8uuaNj1X)  <br>  Zixiang Di, Yaoming Yang, Mei Jiang, Bingdong Li, Hong Qian, Aimin Zhou   |
 
 ## Efficiency Track
 
-| Winner    :rocket:       |
+| Winner    🚀      |
 |------------------|
-| [LLM Merging Competition Technical Report for NeurIPS 2024: Efficiently Building Large Language Models through Merging](https://openreview.net/forum?id=rJ1miae6PJ) Yizhen Zhang, Yang Ding, Jie Wu, Yujiu Yang  |
+| [LLM Merging Competition Technical Report for NeurIPS 2024: Efficiently Building Large Language Models through Merging](https://openreview.net/forum?id=rJ1miae6PJ) <br> Yizhen Zhang, Yang Ding, Jie Wu, Yujiu Yang  |
 
 ## Most Creative Paper Write-up Track
 
-| Winner         :fireworks:             |
+| Winner         🎆        |
 |-----------------------------|
-| [Model Merging using Geometric Median of Task Vectors](https://openreview.net/forum?id=4VD2jMqJbN)   Siddharth Gupta, Aakash Gupta     |
+| [Model Merging using Geometric Median of Task Vectors](https://openreview.net/forum?id=4VD2jMqJbN) <br>  Siddharth Gupta, Aakash Gupta     |
 
 
+
+## Aims and Focus
 
 Join our discord <a href="https://discord.com/invite/VYfFexfSpZ">here</a> !
 
-## Aims and Focus
+
 <p style='text-align: justify;'>
 Training high-performing large language models (LLMs) from scratch is a notoriously expensive and difficult task, costing hundreds of millions of dollars in compute alone. These pretrained LLMs, however, can cheaply and easily be adapted to new tasks via fine-tuning, leading to a proliferation of models that suit specific use cases. Recent work has shown that specialized fine-tuned models can be rapidly **merged** to combine capabilities and generalize to new skills. 
 </p>
