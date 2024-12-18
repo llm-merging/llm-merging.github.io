@@ -14,13 +14,13 @@ Our accepted technical reports are at <a href="https://openreview.net/group?id=N
 
 | Placement    | Winner                                             |
 |--------------|----------------------------------------------------|
-| 1st Place  🌟 | [A Model Merging Method](https://openreview.net/forum?id=zcnDi0i23y) <br> Qiang Gao, Jisheng fang, Hao Mo      |
-| 2nd Place  ⭐  | [Simple Llama Merge: What Kind of LLM Do We Need?](https://openreview.net/forum?id=VndTgXbAgz)  <br>  Yinuo Zhang                             |
-| 3rd Place  💫  | [LLM Merging Competition Technical Report: Efficient Model Merging with Strategic Model Selection, Merging, and Hyperparameter Optimization](https://openreview.net/forum?id=Xl8uuaNj1X)  <br>  Zixiang Di, Yaoming Yang, Mei Jiang, Bingdong Li, Hong Qian, Aimin Zhou   |
+| 1st Place  🌟| [A Model Merging Method](https://openreview.net/forum?id=zcnDi0i23y) <br> Qiang Gao, Jisheng fang, Hao Mo      |
+| 2nd Place  ⭐| [Simple Llama Merge: What Kind of LLM Do We Need?](https://openreview.net/forum?id=VndTgXbAgz)  <br>  Yinuo Zhang                             |
+| 3rd Place  💫| [LLM Merging Competition Technical Report: Efficient Model Merging with Strategic Model Selection, Merging, and Hyperparameter Optimization](https://openreview.net/forum?id=Xl8uuaNj1X)  <br>  Zixiang Di, Yaoming Yang, Mei Jiang, Bingdong Li, Hong Qian, Aimin Zhou   |
 
 ## Efficiency Track
 
-| Winner    🚀      |
+| Winner    🚀    |
 |------------------|
 | [LLM Merging Competition Technical Report for NeurIPS 2024: Efficiently Building Large Language Models through Merging](https://openreview.net/forum?id=rJ1miae6PJ) <br> Yizhen Zhang, Yang Ding, Jie Wu, Yujiu Yang  |
 
