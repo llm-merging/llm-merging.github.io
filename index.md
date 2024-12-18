@@ -1,6 +1,37 @@
 ---
 layout: default
 ---
+
+## See you in Vancouver!
+
+See you in West Meeting Room 210, Sun 15 Dec noon EST — 2:50 p.m. EST. Check our [NeurIPS 2024 schedule](https://neurips.cc/virtual/2024/competition/84794#wse-detail-109333)!
+
+Our accepted technical reports are at <a href="https://openreview.net/group?id=NeurIPS.cc/2024/Competition/LMC#tab-accept-oral">OpenReview page of LLM Merging Compeition NeurIPS 2024</a>
+
+# Announcing Competition Winners
+
+## Performance Track
+
+| Placement    | Winner                                             |
+|--------------|----------------------------------------------------|
+| 1st Place    | [QiangGao, Jisheng fang, Hao Mo](https://openreview.net/forum?id=zcnDi0i23y)                                  |
+| 2nd Place    | [Yinuo Zhang](https://openreview.net/forum?id=VndTgXbAgz)                                   |
+| 3rd Place    | [Zixiang Di, Yaoming Yang, Mei Jiang, Bingdong Li, Hong Qian, Aimin Zhou](https://openreview.net/forum?id=Xl8uuaNj1X)                                    |
+
+## Efficiency Track
+
+| Winner           |
+|------------------|
+| [Yizhen Zhang, Yang Ding, Jie Wu, Yujiu Yang](https://openreview.net/forum?id=rJ1miae6PJ)   |
+
+## Most Creative Paper Write-up Track
+
+| Winner                      |
+|-----------------------------|
+| [Siddharth Gupta, Aakash Gupta](https://openreview.net/forum?id=4VD2jMqJbN)        |
+
+
+
 Join our discord <a href="https://discord.com/invite/VYfFexfSpZ">here</a> !
 
 ## Aims and Focus
@@ -36,15 +67,15 @@ A starter kit with an end-to-end submission flow can be found here:<br>
     </tr>
     <tr>
         <td width="50%"><b>Report Submission Deadline</b></td>
-        <td width="50%"> November 1st, 2024</td>
+        <td width="50%"> <s>November 1st, 2024</s> </td>
     </tr>
     <tr>
         <td width="50%"><b>Winners Notification</b></td>
-        <td width="50%">Mid-November, 2024</td>
+        <td width="50%"> <s>Mid-November, 2024 </s> </td>
     </tr>
     <tr>
-        <td width="50%"><b>Competition Presnetation</b></td>
-        <td width="50%">December, 2024</td>
+        <td width="50%"><b>Competition Presentation</b></td>
+        <td width="50%"> <s>December 15th, 2024</s> </td>
     </tr>
 </table>
 * Currently the deadline is October 11th, 2024. Please check our website and the announcements in the Discord channel for updates.*
