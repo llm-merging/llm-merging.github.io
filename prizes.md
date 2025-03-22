@@ -20,7 +20,7 @@ layout: default
    Toshiyuki Nishimoto, Yoichi Hirose, Yuya Kudo, Nozomu Yoshinari, Rio Akizuki, Kento Uchida, Shinichi Shirakawa
 
 6. **A Model Merging Method**  
-   QiangGao, Jisheng Fang, Hao Mo
+   Jisheng Fang, Hao Mo, QiangGao
 
 7. **Interpolated Layer-Wise Merging for NeurIPS 2024 LLM Merging Competition**  
    Rio Akizuki, Nozomu Yoshinari, Yuya Kudo, Yoichi Hirose, Toshiyuki Nishimoto, Kento Uchida, Shinichi Shirakawa
